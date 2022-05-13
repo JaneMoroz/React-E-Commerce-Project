@@ -18,7 +18,7 @@ const ProductList = () => {
     return <ListView products={products} />;
   }
 
-  return <GridView products={products}>Products list</GridView>;
+  return <GridView products={products}></GridView>;
 };
 
 export default ProductList;
